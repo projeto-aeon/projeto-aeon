@@ -4,22 +4,77 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Banner/>
     </div>
   );
 }
 
+function Header() {
+  return(
+    <header className="flex-container Header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <div className="Header-links">
+          <div className="App-link">
+            <a
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              Learn React
+            </a>
+          </div>
+          <div className="App-link">
+            <a
+            className="App-link"
+            href="#inicio">
+              Início
+            </a>
+            </div>
+          <div className="App-link">
+            <a 
+            className="App-link"
+            href="#quem-somos">
+              Quem Somos
+            </a>
+            </div>
+          <div className="App-link">
+            <a 
+            className="App-link"
+            href="#nossa-equipe">
+              Nossa Equipe
+            </a>
+            </div>
+          <div className="App-link">
+            <a 
+            className="App-link"
+            href="#servicos">
+              Serviços
+            </a>
+            </div>
+          <div className="App-link">
+            <a 
+            className="App-link"
+            href="#iniciativas">
+              Iniciativas
+            </a>
+            </div>
+          <div className="App-link">
+            <a 
+            className="App-link"
+            href="#parceiros">
+              Parceiros
+            </a>
+          </div>
+        </div>
+      </header>
+  );
+}
+function Banner() {
+  return(
+    <>
+
+    </>
+  );
+}
 export default App;
