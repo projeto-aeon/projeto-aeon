@@ -73,7 +73,13 @@ function Header() {
 function Banner() {
   return(
     <>
-
+      <div className="Banner">
+        <div className="flex-container Banner-container">
+          <div className="img-banner-aeon"></div>
+          <div className="espaco-meio" />
+          <div className="img-banner-aeon"></div>
+        </div>
+      </div>
     </>
   );
 }

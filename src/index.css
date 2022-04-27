@@ -15,3 +15,7 @@ a {
   text-decoration: none;
   color: black;
 }
+hr {
+  border-width: 0;
+  border: none;
+}
