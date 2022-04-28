@@ -28,7 +28,7 @@
   height: 70vh;
 }
 .Banner-container{
-  padding: 3vw 10vw;
+  padding: 3vw 0;
   color: #fff;
   align-content: space-between;
   justify-content: center;
@@ -38,7 +38,4 @@
   height: 30vw;
   background-color: #fff;
   border-radius: 10px;
-}
-.espaco-meio{
-  width: 10vw;
 }

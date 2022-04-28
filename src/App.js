@@ -75,9 +75,21 @@ function Banner() {
     <>
       <div className="Banner">
         <div className="flex-container Banner-container">
-          <div className="img-banner-aeon"></div>
-          <div className="espaco-meio" />
-          <div className="img-banner-aeon"></div>
+          <img 
+            src={process.env.PUBLIC_URL + "/img/banner01.png"}
+            style={{
+              margin: "2%"
+            }}
+            alt="Banner AEON" 
+            />
+          <img 
+            src={process.env.PUBLIC_URL + "/img/banner02.png"}
+            style={{
+              height: "50%",
+              margin: "2%"
+            }} 
+            alt="Banner branco AEON" 
+            />
         </div>
       </div>
     </>
