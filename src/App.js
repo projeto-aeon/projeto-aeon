@@ -6,7 +6,7 @@ const black = "#000";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage: "url(" + process.env.PUBLIC_URL + "/img/fundo.svg)"}}>
       <Header />
       <Banner />
       <QuemSomos />
@@ -76,14 +76,36 @@ function Banner() {
             alt="Banner AEON"
           />
           <div>
-            <img
-              src={process.env.PUBLIC_URL + "/img/banner04.png"}
-              style={{
-                height: "50%",
-                margin: "2vw 2vw",
-              }}
-              alt="Banner branco AEON"
-            />
+            <div
+            style={{
+              backgroundColor: "#fff",
+              padding: "4vw 3vw",
+              width: "70% !important",
+              borderRadius: "2vw",
+              margin: "2vw"
+            }}
+            >
+              <img
+                // src={process.env.PUBLIC_URL + "/img/banner04.png"}
+                className="hover-yello"
+                src={process.env.PUBLIC_URL + "/img/image5.svg"}
+                style={{
+                  height: "5vw",
+                  width: "5vw",
+                  filter: "invert(54%) sepia(94%) saturate(639%) hue-rotate(66deg) brightness(108%) contrast(127%)"
+                }}
+                
+                alt="Banner branco AEON"
+              />
+            </div>
+            
+            <div id="banner-icons" className="flex-container">
+              <a href="/"><i class="bi bi-behance"></i></a>
+              <a href="https://www.instagram.com/albertoferreiraalfredo/"><i class="bi bi-instagram"></i></a>
+              <a href="https://wa.me/5567996432056?text=Vim%20pelo%20link%20da%20AEON%20"><i class="bi bi-whatsapp"></i></a>
+              <a href="github.com/albertoalfredo"><i class="bi bi-github"></i></a>
+              <a href="mailto:albertoalfredo.profissional@gmail.com"><i class="bi bi-envelope"></i></a>
+            </div>
           </div>
         </div>
         <h2 style={{ color: "rgb(213 172 0)" }}>
@@ -138,7 +160,7 @@ function QuemSomos() {
 function Equipe() {
   return (
     <>
-      <div className="gradient" style={{fontSize: "2vw", padding: "2vw"}}>
+      <div className="gradient" style={{fontSize: "1.5vw", padding: "2vw"}}>
         <h2> >_ NOSSA EQUIPE :D </h2>
         <div className="flex-container centralize">
           <div className="card">

@@ -1,3 +1,4 @@
+
 .flex-container {
   display: flex;
   width: 100%;
@@ -57,11 +58,28 @@
 }
 .gradient {
   background: rgb(255, 255, 255);
+  color: var(--green01);
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(9, 121, 92, 1) 10%,
-    rgba(24, 129, 102, 1) 90%,
+    #000 2%,
+    #000 98%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+.gradient i {
+  color: var(--green01) !important;
+}
+#banner-icons {
+  justify-content: center;
+}
+#banner-icons a{
+  background-color: #fff;
+  padding: 1vw;
+  margin: 1vw;
+  font-size: 2vw;
+  border-radius: 50vw;
+}
+.hover-yello:hover{
+  filter: brightness(0) saturate(100%) invert(96%) sepia(78%) saturate(1723%) hue-rotate(324deg) brightness(91%) contrast(85%) !important;
 }
