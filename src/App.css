@@ -1,41 +1,67 @@
-.flex-container{
+.flex-container {
   display: flex;
   width: 100%;
 }
-.Header{
+.Header {
   height: 5vw;
   width: 100%;
   background-color: #fff;
   border-bottom: #000 solid 1px;
 }
-.App-logo{
-  height: 100%;
+.App-logo {
+  height: 70%;
+  margin: 1vh;
 }
-.Header-links{
+.Header-links {
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: flex-start;
   align-content: space-around;
 }
-.App-link{
+.App-link {
   height: auto;
   margin: 0 1vw;
 }
-.Banner{
+.Banner {
   background-color: #000;
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
+  padding: 2vw 0;
+  text-align: center;
 }
-.Banner-container{
+.Banner-container {
   padding: 3vw 0;
   color: #fff;
   align-content: space-between;
   justify-content: center;
 }
-.img-banner-aeon{
+.img-banner-aeon {
   width: 20vw;
   height: 30vw;
   background-color: #fff;
   border-radius: 10px;
+}
+.centralize {
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  width: 25vw;
+}
+.card img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(9, 121, 92, 1) 10%,
+    rgba(24, 129, 102, 1) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
