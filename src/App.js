@@ -169,13 +169,13 @@ function Equipe() {
               src={process.env.PUBLIC_URL + "/img/henzel.jpeg"}
               alt="Henzel"
             />
-            
-            <h3>Designer</h3>
             <div className="flex-container centralize">
               <a href="https://wa.me/5515997659846?text=Vim%20pelo%20link%20da%20AEON%20"><i class="bi bi-whatsapp"></i></a>
               <i class="bi bi-behance"></i>
               <a href="https://www.instagram.com/henzelsalomao/"><i class="bi bi-instagram"></i></a>
             </div>
+            <h3>Designer</h3>
+            
           </div>
         </div>
       </div>
